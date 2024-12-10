@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
@@ -17,20 +18,73 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform CamTransform;
     // Start is called before the first frame update
     [SerializeField] float walkvalue;
+
+    /*
+    [SerializeField] InputActionReference moveControl;
+    [SerializeField] InputActionReference attackControl;
+
+    private void OnEnable()
+    {
+        moveControl.action.Enable();
+        attackControl.action.Enable();
+    }
+
+    private void OnDisable()
+    {
+        moveControl.action.Disable();
+        attackControl.action.Disable();
+    }
+    */
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         
-        InputManager.Init(this);
+        //InputManager.Init(this);
 
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        /*
+        moveControl.action.performed += _ => {
+            SetMoveDirection(_.ReadValue<Vector3>());
+            Debug.Log("Move");
+        };
+        if (attackControl.action.WasPressedThisFrame())
+        {
+            attack();
+        }*/
+
+        Vector3 dir = Vector3.zero;
+        if (Input.GetKey(KeyCode.W))
+        {
+            dir += new Vector3(0, 0, 1);
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            dir += new Vector3(0, 0, -1);
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            dir += new Vector3(0, 0, -1);
+
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            dir += new Vector3(0, 0, 1);
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            attack();
+        }
+
+        moveDir = dir;
         //rb.velocity = (moveDir * moveSpeed);
 
-        
+
         if (moveDir != new Vector3(0,0,0))
         {
             if (walkvalue < 1)
@@ -38,7 +92,14 @@ public class Player : MonoBehaviour
                 walkvalue += 0.1f;
             }
             animator.SetLayerWeight(3, walkvalue);
-            gameObject.transform.rotation = Quaternion.Euler(0, CamTransform.rotation.y * 100, 0);
+            //gameObject.transform.rotation = Quaternion.Euler(0, CamTransform.rotation.y, 0);
+
+            Quaternion cameraRot = CamTransform.rotation;
+            //transform.rotation = Quaternion.Euler(new Vector3(transform.rotation.x, CamTransform.rotation.y * 100, transform.rotation.z));
+            //transform.rotation = Quaternion.Euler(0,transform.rotation.y,0);
+            //transform.rotation = 
+            
+            //Debug.Log("S");
         }
         else
         {
