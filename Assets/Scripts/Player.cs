@@ -96,7 +96,7 @@ public class Player : MonoBehaviour
 
             Quaternion cameraRot = CamTransform.rotation;
             //transform.rotation = Quaternion.Euler(new Vector3(transform.rotation.x, CamTransform.rotation.y * 100, transform.rotation.z));
-            //transform.rotation = Quaternion.Euler(0,transform.rotation.y,0);
+            transform.rotation = Quaternion.Euler(0,CamTransform.eulerAngles.y,0);
             //transform.rotation = 
             
             //Debug.Log("S");
