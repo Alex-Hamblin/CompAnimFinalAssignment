@@ -18,7 +18,8 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform CamTransform;
     // Start is called before the first frame update
     [SerializeField] float walkvalue;
-    
+
+   
 
     public bool attacking;
     /*
@@ -150,4 +151,5 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(1.2f);
         attacking = false;
     }
+    
 }

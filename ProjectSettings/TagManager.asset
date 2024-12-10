@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PlayerHit
   - Dummy
+  - MoogleZone
   layers:
   - Default
   - TransparentFX

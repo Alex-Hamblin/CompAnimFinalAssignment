@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BirdDeposit : MonoBehaviour
 {
-    [SerializeField] Player player;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -16,15 +16,6 @@ public class BirdDeposit : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Player")
-        {
-
-        }
-    }
-    void Deposit()
-    {
-
-    }
+   
+    
 }
