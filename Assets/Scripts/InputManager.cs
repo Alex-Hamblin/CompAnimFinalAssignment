@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private static Controls controls;
 
-    // Update is called once per frame
-    void Update()
+    public static void Init(Player player)
     {
-        
+        controls = new Controls();
+
+        controls.Walking.Movement.performed += _ =>
+        {
+            player.SetMoveDirection(_.ReadValue<Vector3>());
+        };
     }
 }
