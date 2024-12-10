@@ -19,6 +19,8 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] float walkvalue;
 
+
+    public bool attacking;
     /*
     [SerializeField] InputActionReference moveControl;
     [SerializeField] InputActionReference attackControl;
@@ -67,16 +69,16 @@ public class Player : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.A))
         {
-            dir += new Vector3(0, 0, -1);
+            dir += new Vector3(-1, 0, 0);
 
         }
         if (Input.GetKey(KeyCode.D))
         {
-            dir += new Vector3(0, 0, 1);
+            dir += new Vector3(1, 0, 0);
 
         }
 
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKey(KeyCode.Mouse0))
         {
             attack();
         }
@@ -84,50 +86,67 @@ public class Player : MonoBehaviour
         moveDir = dir;
         //rb.velocity = (moveDir * moveSpeed);
 
-
-        if (moveDir != new Vector3(0,0,0))
+        if (!attacking)
         {
-            if (walkvalue < 1)
+            if (moveDir != new Vector3(0, 0, 0))
             {
-                walkvalue += 0.1f;
-            }
-            animator.SetLayerWeight(3, walkvalue);
-            //gameObject.transform.rotation = Quaternion.Euler(0, CamTransform.rotation.y, 0);
+                //rb.constraints = RigidbodyConstraints.None;
+                if (walkvalue < 1)
+                {
+                    walkvalue += 0.1f;
+                }
+                animator.SetLayerWeight(1, walkvalue);
+                //gameObject.transform.rotation = Quaternion.Euler(0, CamTransform.rotation.y, 0);
 
-            Quaternion cameraRot = CamTransform.rotation;
-            //transform.rotation = Quaternion.Euler(new Vector3(transform.rotation.x, CamTransform.rotation.y * 100, transform.rotation.z));
-            transform.rotation = Quaternion.Euler(0,CamTransform.eulerAngles.y,0);
-            //transform.rotation = 
-            
-            //Debug.Log("S");
-        }
-        else
-        {
-            animator.SetLayerWeight(3, walkvalue);
-            if (walkvalue >0)
+                Quaternion cameraRot = CamTransform.rotation;
+                //transform.rotation = Quaternion.Euler(new Vector3(transform.rotation.x, CamTransform.rotation.y * 100, transform.rotation.z));
+                transform.rotation = Quaternion.Euler(0, CamTransform.eulerAngles.y, 0);
+                //transform.rotation = 
+
+                //Debug.Log("S");
+            }
+            else
             {
-                walkvalue -= 0.1f;
+                //rb.constraints = RigidbodyConstraints.FreezeRotationY;
+                animator.SetLayerWeight(1, walkvalue);
+                if (walkvalue > 0)
+                {
+                    walkvalue -= 0.1f;
+                }
             }
+            smoothedMoveDir = Vector3.SmoothDamp(smoothedMoveDir, moveDir, ref smoothedMoveVelo, 0.1f);
+            smoothedMoveDir = CamTransform.forward * moveDir.z + CamTransform.right * moveDir.x;
+            rb.velocity = new Vector3(smoothedMoveDir.x * moveSpeed, -3, smoothedMoveDir.z * moveSpeed);
         }
-
-        smoothedMoveDir = Vector3.SmoothDamp(smoothedMoveDir, moveDir, ref smoothedMoveVelo, 0.1f);
-        smoothedMoveDir = CamTransform.forward * moveDir.z + CamTransform.right * moveDir.x;
-        rb.velocity = new Vector3(smoothedMoveDir.x * moveSpeed, -3, smoothedMoveDir.z * moveSpeed);
+       
 
         
 
 
     }
-    internal void SetMoveDirection(Vector3 currentDir)
+    public void SetMoveDirection(Vector3 currentDir)
     {
         moveDir = currentDir;
     }
 
-    internal void attack()
+    public void attack()
     {
-        
-        animator.SetLayerWeight(4, 1);
-        
-        
+        if (!attacking)
+        {
+            animator.SetTrigger("Attack");
+            //animator.SetLayerWeight(4, 1);
+            attacking = true;
+            animator.SetLayerWeight(1, 0);
+            rb.velocity = Vector3.zero;
+            StartCoroutine(AttackLock());
+
+        }
+    }
+
+
+    IEnumerator AttackLock()
+    {
+        yield return new WaitForSeconds(1.2f);
+        attacking = false;
     }
 }
