@@ -9,6 +9,9 @@ public class SmorkAI : MonoBehaviour
     [SerializeField] Transform destination;
     [SerializeField] float distance;
     [SerializeField] float playerGap;
+    [SerializeField] Rigidbody rb;
+    [SerializeField] Animator animator;
+    private float blendWeight;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,11 +25,32 @@ public class SmorkAI : MonoBehaviour
         {
             agent.destination = destination.position;
             distance = Vector3.Distance(gameObject.transform.position, destination.position);
+            
+            
         }
         else
         {
             agent.destination = gameObject.transform.position; 
+            
         }
-        
+        if (distance >= playerGap +0.1f)
+        {
+            if (blendWeight <1)
+            {
+                
+                blendWeight += 0.05f;
+            }
+        }
+        else if (distance <= playerGap + 0.1f)
+        {
+            if (blendWeight > 0)
+            {
+                blendWeight -= 0.05f;
+                
+            }
+        }
+        animator.SetLayerWeight(1, blendWeight);
+
+
     }
 }

@@ -1852,6 +1852,8 @@ MonoBehaviour:
   destination: {fileID: 421854394}
   distance: 0
   playerGap: 2
+  rb: {fileID: 907454103}
+  animator: {fileID: 907454105}
 --- !u!195 &907454108
 NavMeshAgent:
   m_ObjectHideFlags: 0
