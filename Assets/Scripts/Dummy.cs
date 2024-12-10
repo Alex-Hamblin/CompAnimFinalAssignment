@@ -20,7 +20,7 @@ public class Dummy : MonoBehaviour
     {
         if (other.tag == "PlayerHit")
         {
-            animator.Play("Attacked");
+            animator.SetTrigger("Hit");
         }
     }
 

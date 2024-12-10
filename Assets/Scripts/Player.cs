@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform CamTransform;
     // Start is called before the first frame update
     [SerializeField] float walkvalue;
-
+    
 
     public bool attacking;
     /*
@@ -139,6 +139,7 @@ public class Player : MonoBehaviour
             animator.SetLayerWeight(1, 0);
             rb.velocity = Vector3.zero;
             StartCoroutine(AttackLock());
+            
 
         }
     }
