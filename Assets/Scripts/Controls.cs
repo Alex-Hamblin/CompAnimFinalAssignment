@@ -37,7 +37,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""New action1"",
+                    ""name"": ""Attack"",
                     ""type"": ""Button"",
                     ""id"": ""206377ed-3efa-4eb1-9dda-bc9133027bad"",
                     ""expectedControlType"": """",
@@ -138,11 +138,11 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""eb58b5db-687a-4b30-9843-056365d6dc79"",
-                    ""path"": """",
+                    ""path"": ""<Keyboard>/1"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""New action1"",
+                    ""action"": ""Attack"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -166,7 +166,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         // Walking
         m_Walking = asset.FindActionMap("Walking", throwIfNotFound: true);
         m_Walking_Movement = m_Walking.FindAction("Movement", throwIfNotFound: true);
-        m_Walking_Newaction1 = m_Walking.FindAction("New action1", throwIfNotFound: true);
+        m_Walking_Attack = m_Walking.FindAction("Attack", throwIfNotFound: true);
     }
 
     ~@Controls()
@@ -234,13 +234,13 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Walking;
     private List<IWalkingActions> m_WalkingActionsCallbackInterfaces = new List<IWalkingActions>();
     private readonly InputAction m_Walking_Movement;
-    private readonly InputAction m_Walking_Newaction1;
+    private readonly InputAction m_Walking_Attack;
     public struct WalkingActions
     {
         private @Controls m_Wrapper;
         public WalkingActions(@Controls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Movement => m_Wrapper.m_Walking_Movement;
-        public InputAction @Newaction1 => m_Wrapper.m_Walking_Newaction1;
+        public InputAction @Attack => m_Wrapper.m_Walking_Attack;
         public InputActionMap Get() { return m_Wrapper.m_Walking; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -253,9 +253,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Movement.started += instance.OnMovement;
             @Movement.performed += instance.OnMovement;
             @Movement.canceled += instance.OnMovement;
-            @Newaction1.started += instance.OnNewaction1;
-            @Newaction1.performed += instance.OnNewaction1;
-            @Newaction1.canceled += instance.OnNewaction1;
+            @Attack.started += instance.OnAttack;
+            @Attack.performed += instance.OnAttack;
+            @Attack.canceled += instance.OnAttack;
         }
 
         private void UnregisterCallbacks(IWalkingActions instance)
@@ -263,9 +263,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Movement.started -= instance.OnMovement;
             @Movement.performed -= instance.OnMovement;
             @Movement.canceled -= instance.OnMovement;
-            @Newaction1.started -= instance.OnNewaction1;
-            @Newaction1.performed -= instance.OnNewaction1;
-            @Newaction1.canceled -= instance.OnNewaction1;
+            @Attack.started -= instance.OnAttack;
+            @Attack.performed -= instance.OnAttack;
+            @Attack.canceled -= instance.OnAttack;
         }
 
         public void RemoveCallbacks(IWalkingActions instance)
@@ -295,6 +295,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     public interface IWalkingActions
     {
         void OnMovement(InputAction.CallbackContext context);
-        void OnNewaction1(InputAction.CallbackContext context);
+        void OnAttack(InputAction.CallbackContext context);
     }
 }

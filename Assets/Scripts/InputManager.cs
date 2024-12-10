@@ -15,5 +15,9 @@ public class InputManager : MonoBehaviour
         {
             player.SetMoveDirection(_.ReadValue<Vector3>());
         };
+        controls.Walking.Attack.performed += _ =>
+        {
+            player.attack();
+        };
     }
 }

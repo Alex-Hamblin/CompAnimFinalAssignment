@@ -15,7 +15,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "New action1",
+                    "name": "Attack",
                     "type": "Button",
                     "id": "206377ed-3efa-4eb1-9dda-bc9133027bad",
                     "expectedControlType": "",
@@ -116,11 +116,11 @@
                 {
                     "name": "",
                     "id": "eb58b5db-687a-4b30-9843-056365d6dc79",
-                    "path": "",
+                    "path": "<Keyboard>/1",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action1",
+                    "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
