@@ -10,6 +10,7 @@ public class InputManager : MonoBehaviour
     {
         controls = new Controls();
 
+        controls.Walking.Enable();
         controls.Walking.Movement.performed += _ =>
         {
             player.SetMoveDirection(_.ReadValue<Vector3>());

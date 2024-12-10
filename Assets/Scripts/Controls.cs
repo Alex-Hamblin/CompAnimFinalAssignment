@@ -72,7 +72,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""up"",
                     ""id"": ""b205bc55-60b7-4d2a-8862-8ae22a957e4c"",
-                    ""path"": """",
+                    ""path"": ""<Keyboard>/7"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -83,7 +83,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""down"",
                     ""id"": ""1a6f6d88-ff38-4eea-9287-af0965de4bb9"",
-                    ""path"": """",
+                    ""path"": ""<Keyboard>/9"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -149,7 +149,19 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             ]
         }
     ],
-    ""controlSchemes"": []
+    ""controlSchemes"": [
+        {
+            ""name"": ""New Control Scheme"",
+            ""bindingGroup"": ""New Control Scheme"",
+            ""devices"": [
+                {
+                    ""devicePath"": ""<Keyboard>"",
+                    ""isOptional"": false,
+                    ""isOR"": false
+                }
+            ]
+        }
+    ]
 }");
         // Walking
         m_Walking = asset.FindActionMap("Walking", throwIfNotFound: true);
@@ -271,6 +283,15 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         }
     }
     public WalkingActions @Walking => new WalkingActions(this);
+    private int m_NewControlSchemeSchemeIndex = -1;
+    public InputControlScheme NewControlSchemeScheme
+    {
+        get
+        {
+            if (m_NewControlSchemeSchemeIndex == -1) m_NewControlSchemeSchemeIndex = asset.FindControlSchemeIndex("New Control Scheme");
+            return asset.controlSchemes[m_NewControlSchemeSchemeIndex];
+        }
+    }
     public interface IWalkingActions
     {
         void OnMovement(InputAction.CallbackContext context);

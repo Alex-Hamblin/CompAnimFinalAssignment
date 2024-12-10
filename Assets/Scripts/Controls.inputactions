@@ -50,7 +50,7 @@
                 {
                     "name": "up",
                     "id": "b205bc55-60b7-4d2a-8862-8ae22a957e4c",
-                    "path": "",
+                    "path": "<Keyboard>/7",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -61,7 +61,7 @@
                 {
                     "name": "down",
                     "id": "1a6f6d88-ff38-4eea-9287-af0965de4bb9",
-                    "path": "",
+                    "path": "<Keyboard>/9",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -127,5 +127,17 @@
             ]
         }
     ],
-    "controlSchemes": []
+    "controlSchemes": [
+        {
+            "name": "New Control Scheme",
+            "bindingGroup": "New Control Scheme",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
 }
