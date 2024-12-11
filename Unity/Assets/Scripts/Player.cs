@@ -1,3 +1,4 @@
+using Cinemachine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -18,8 +19,9 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform CamTransform;
     // Start is called before the first frame update
     [SerializeField] float walkvalue;
-
-   
+    [SerializeField] bool canMove;
+    [SerializeField] CinemachineVirtualCamera cam;
+    [SerializeField] GameObject UI;
 
     public bool attacking;
     /*
@@ -40,8 +42,8 @@ public class Player : MonoBehaviour
     */
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
         
+        canMove = false;
         //InputManager.Init(this);
 
     }
@@ -58,69 +60,72 @@ public class Player : MonoBehaviour
         {
             attack();
         }*/
-
-        Vector3 dir = Vector3.zero;
-        if (Input.GetKey(KeyCode.W))
+        if (canMove)
         {
-            dir += new Vector3(0, 0, 1);
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            dir += new Vector3(0, 0, -1);
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            dir += new Vector3(-1, 0, 0);
 
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            dir += new Vector3(1, 0, 0);
 
-        }
-
-        if (Input.GetKey(KeyCode.Mouse0))
-        {
-            attack();
-        }
-
-        moveDir = dir;
-        //rb.velocity = (moveDir * moveSpeed);
-
-        if (!attacking)
-        {
-            if (moveDir != new Vector3(0, 0, 0))
+            Vector3 dir = Vector3.zero;
+            if (Input.GetKey(KeyCode.W))
             {
-                //rb.constraints = RigidbodyConstraints.None;
-                if (walkvalue < 1)
-                {
-                    walkvalue += 0.1f;
-                }
-                animator.SetLayerWeight(1, walkvalue);
-                //gameObject.transform.rotation = Quaternion.Euler(0, CamTransform.rotation.y, 0);
-
-                Quaternion cameraRot = CamTransform.rotation;
-                //transform.rotation = Quaternion.Euler(new Vector3(transform.rotation.x, CamTransform.rotation.y * 100, transform.rotation.z));
-                transform.rotation = Quaternion.Euler(0, CamTransform.eulerAngles.y, 0);
-                //transform.rotation = 
-
-                //Debug.Log("S");
+                dir += new Vector3(0, 0, 1);
             }
-            else
+            if (Input.GetKey(KeyCode.S))
             {
-                //rb.constraints = RigidbodyConstraints.FreezeRotationY;
-                animator.SetLayerWeight(1, walkvalue);
-                if (walkvalue > 0)
-                {
-                    walkvalue -= 0.1f;
-                }
+                dir += new Vector3(0, 0, -1);
             }
-            smoothedMoveDir = Vector3.SmoothDamp(smoothedMoveDir, moveDir, ref smoothedMoveVelo, 0.1f);
-            smoothedMoveDir = CamTransform.forward * moveDir.z + CamTransform.right * moveDir.x;
-            rb.velocity = new Vector3(smoothedMoveDir.x * moveSpeed, -3, smoothedMoveDir.z * moveSpeed);
-        }
-       
+            if (Input.GetKey(KeyCode.A))
+            {
+                dir += new Vector3(-1, 0, 0);
 
+            }
+            if (Input.GetKey(KeyCode.D))
+            {
+                dir += new Vector3(1, 0, 0);
+
+            }
+
+            if (Input.GetKey(KeyCode.Mouse0))
+            {
+                attack();
+            }
+
+            moveDir = dir;
+            //rb.velocity = (moveDir * moveSpeed);
+
+            if (!attacking)
+            {
+                if (moveDir != new Vector3(0, 0, 0))
+                {
+                    //rb.constraints = RigidbodyConstraints.None;
+                    if (walkvalue < 1)
+                    {
+                        walkvalue += 0.1f;
+                    }
+                    animator.SetLayerWeight(1, walkvalue);
+                    //gameObject.transform.rotation = Quaternion.Euler(0, CamTransform.rotation.y, 0);
+
+                    Quaternion cameraRot = CamTransform.rotation;
+                    //transform.rotation = Quaternion.Euler(new Vector3(transform.rotation.x, CamTransform.rotation.y * 100, transform.rotation.z));
+                    transform.rotation = Quaternion.Euler(0, CamTransform.eulerAngles.y, 0);
+                    //transform.rotation = 
+
+                    //Debug.Log("S");
+                }
+                else
+                {
+                    //rb.constraints = RigidbodyConstraints.FreezeRotationY;
+                    animator.SetLayerWeight(1, walkvalue);
+                    if (walkvalue > 0)
+                    {
+                        walkvalue -= 0.1f;
+                    }
+                }
+                smoothedMoveDir = Vector3.SmoothDamp(smoothedMoveDir, moveDir, ref smoothedMoveVelo, 0.1f);
+                smoothedMoveDir = CamTransform.forward * moveDir.z + CamTransform.right * moveDir.x;
+                rb.velocity = new Vector3(smoothedMoveDir.x * moveSpeed, -3, smoothedMoveDir.z * moveSpeed);
+            }
+
+        }
         
 
 
@@ -150,6 +155,13 @@ public class Player : MonoBehaviour
     {
         yield return new WaitForSeconds(1.2f);
         attacking = false;
+    }
+    public void startGame()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        canMove = true;
+        cam.Priority = 0;
+        UI.SetActive(false);
     }
     
 }
