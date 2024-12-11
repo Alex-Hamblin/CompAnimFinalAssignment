@@ -22,6 +22,7 @@ public class Player : MonoBehaviour
     [SerializeField] bool canMove;
     [SerializeField] CinemachineVirtualCamera cam;
     [SerializeField] GameObject UI;
+    [SerializeField] GameObject mogTown;
 
     public bool attacking;
     /*
@@ -162,6 +163,7 @@ public class Player : MonoBehaviour
         canMove = true;
         cam.Priority = 0;
         UI.SetActive(false);
+        mogTown.SetActive(true);
     }
     
 }
