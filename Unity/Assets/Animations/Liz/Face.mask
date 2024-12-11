@@ -7,5 +7,958 @@ AvatarMask:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Face
-  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-  m_Elements: []
+  m_Mask: 00000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: c0101e5034_met Part 12.0
+    m_Weight: 1
+  - m_Path: c0101e5034_met Part 12.1
+    m_Weight: 1
+  - m_Path: c0101e5034_met Part 12.2
+    m_Weight: 1
+  - m_Path: c0101e6062_glv Part 16.0
+    m_Weight: 1
+  - m_Path: c0101e6062_glv Part 16.1
+    m_Weight: 1
+  - m_Path: c0101e6062_glv Part 16.2
+    m_Weight: 1
+  - m_Path: c0101e6062_glv Part 17.0
+    m_Weight: 1
+  - m_Path: c0101e6090_top Part 10.0
+    m_Weight: 1
+  - m_Path: c0101e6090_top Part 10.1
+    m_Weight: 1
+  - m_Path: c0101e6090_top Part 10.2
+    m_Weight: 1
+  - m_Path: c0101e6090_top Part 10.3
+    m_Weight: 1
+  - m_Path: c0101e6090_top Part 10.4
+    m_Weight: 1
+  - m_Path: c0101e6090_top Part 11.0
+    m_Weight: 1
+  - m_Path: c0101e6090_top Part 11.1
+    m_Weight: 1
+  - m_Path: c0101e6120_dwn Part 13.0
+    m_Weight: 1
+  - m_Path: c0101e6120_dwn Part 13.1
+    m_Weight: 1
+  - m_Path: c0101e6120_dwn Part 13.2
+    m_Weight: 1
+  - m_Path: c0101e6120_dwn Part 13.3
+    m_Weight: 1
+  - m_Path: c0101e6134_sho Part 14.0
+    m_Weight: 1
+  - m_Path: c0101e6134_sho Part 14.1
+    m_Weight: 1
+  - m_Path: c0101e6134_sho Part 15.0
+    m_Weight: 1
+  - m_Path: c1401f0001_fac Part 2.0
+    m_Weight: 1
+  - m_Path: c1401f0001_fac Part 2.1
+    m_Weight: 1
+  - m_Path: c1401f0001_fac Part 2.2
+    m_Weight: 1
+  - m_Path: c1401f0001_fac Part 2.3
+    m_Weight: 1
+  - m_Path: c1401f0001_fac Part 2.4
+    m_Weight: 1
+  - m_Path: c1401f0001_fac Part 3.0
+    m_Weight: 1
+  - m_Path: c1401f0001_fac Part 4.0
+    m_Weight: 1
+  - m_Path: c1401f0001_fac Part 5.0
+    m_Weight: 1
+  - m_Path: c1401f0001_fac Part 6.0
+    m_Weight: 1
+  - m_Path: c1401f0001_fac Part 6.1
+    m_Weight: 1
+  - m_Path: c1401f0001_fac Part 6.2
+    m_Weight: 1
+  - m_Path: c1401f0001_fac Part 7.0
+    m_Weight: 1
+  - m_Path: c1401f0001_fac Part 7.1
+    m_Weight: 1
+  - m_Path: c1401f0001_fac Part 8.0
+    m_Weight: 1
+  - m_Path: c1401h0157_hir Part 0.0
+    m_Weight: 1
+  - m_Path: c1401h0157_hir Part 0.1
+    m_Weight: 1
+  - m_Path: c1401h0157_hir Part 0.2
+    m_Weight: 1
+  - m_Path: c1401h0157_hir Part 1.0
+    m_Weight: 1
+  - m_Path: c1401t0004_til Part 9.0
+    m_Weight: 1
+  - m_Path: c1401t0004_til Part 9.1
+    m_Weight: 1
+  - m_Path: cs.cube
+    m_Weight: 1
+  - m_Path: cs.default.bones
+    m_Weight: 1
+  - m_Path: cs.eye_circles
+    m_Weight: 1
+  - m_Path: cs.eye_controller
+    m_Weight: 1
+  - m_Path: cs.foot
+    m_Weight: 1
+  - m_Path: cs.hair
+    m_Weight: 1
+  - m_Path: cs.head
+    m_Weight: 1
+  - m_Path: cs.lip_side
+    m_Weight: 1
+  - m_Path: cs.root
+    m_Weight: 1
+  - m_Path: cs.shoulder
+    m_Weight: 1
+  - m_Path: cs.spines
+    m_Weight: 1
+  - m_Path: cs.toes
+    m_Weight: 1
+  - m_Path: cs.waist
+    m_Weight: 1
+  - m_Path: cs_back
+    m_Weight: 1
+  - m_Path: cs_ball
+    m_Weight: 1
+  - m_Path: cs_circle
+    m_Weight: 1
+  - m_Path: cs_eye_all
+    m_Weight: 1
+  - m_Path: cs_eyebrow_controller
+    m_Weight: 1
+  - m_Path: cs_eyelid_bottom
+    m_Weight: 1
+  - m_Path: cs_eyelid_top
+    m_Weight: 1
+  - m_Path: cs_hand.scaler
+    m_Weight: 1
+  - m_Path: cs_hand_shape.L
+    m_Weight: 1
+  - m_Path: cs_hand_shape.R
+    m_Weight: 1
+  - m_Path: cs_jaw_controller ree
+    m_Weight: 1
+  - m_Path: cs_mouth_controller
+    m_Weight: 1
+  - m_Path: cs_mouth_lip_dwn
+    m_Weight: 1
+  - m_Path: cs_mouth_lip_up
+    m_Weight: 1
+  - m_Path: n_root
+    m_Weight: 1
+  - m_Path: n_root/n_hara
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/iv_inshin_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/iv_inshin_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/iv_kougan_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/iv_kougan_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/iv_koumon
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/iv_koumon_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/iv_koumon_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/iv_kuritto
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/iv_ochinko_a
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/iv_ochinko_a/iv_ochinko_b
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/iv_ochinko_a/iv_ochinko_b/iv_ochinko_c
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/iv_ochinko_a/iv_ochinko_b/iv_ochinko_c/iv_ochinko_d
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/iv_ochinko_a/iv_ochinko_b/iv_ochinko_c/iv_ochinko_d/iv_ochinko_e
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/iv_ochinko_a/iv_ochinko_b/iv_ochinko_c/iv_ochinko_d/iv_ochinko_e/iv_ochinko_f
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/iv_omanko
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/iv_shiri_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/iv_shiri_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_l/j_asi_b_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_l/j_asi_b_l/j_asi_c_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_l/j_asi_b_l/j_asi_c_l/j_asi_d_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_l/j_asi_b_l/j_asi_c_l/j_asi_d_l/j_asi_e_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_l/j_asi_b_l/j_asi_c_l/j_asi_d_l/j_asi_e_l/iv_asi_hito_a_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_l/j_asi_b_l/j_asi_c_l/j_asi_d_l/j_asi_e_l/iv_asi_hito_a_l/iv_asi_hito_b_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_l/j_asi_b_l/j_asi_c_l/j_asi_d_l/j_asi_e_l/iv_asi_ko_a_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_l/j_asi_b_l/j_asi_c_l/j_asi_d_l/j_asi_e_l/iv_asi_ko_a_l/iv_asi_ko_b_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_l/j_asi_b_l/j_asi_c_l/j_asi_d_l/j_asi_e_l/iv_asi_kusu_a_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_l/j_asi_b_l/j_asi_c_l/j_asi_d_l/j_asi_e_l/iv_asi_kusu_a_l/iv_asi_kusu_b_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_l/j_asi_b_l/j_asi_c_l/j_asi_d_l/j_asi_e_l/iv_asi_naka_a_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_l/j_asi_b_l/j_asi_c_l/j_asi_d_l/j_asi_e_l/iv_asi_naka_a_l/iv_asi_naka_b_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_l/j_asi_b_l/j_asi_c_l/j_asi_d_l/j_asi_e_l/iv_asi_oya_a_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_l/j_asi_b_l/j_asi_c_l/j_asi_d_l/j_asi_e_l/iv_asi_oya_a_l/iv_asi_oya_b_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_l/j_asi_b_l/n_hizasoubi_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_l/j_asi_b_l/n_hizasoubi_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_r/j_asi_b_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_r/j_asi_b_r/j_asi_c_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_r/j_asi_b_r/j_asi_c_r/j_asi_d_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_r/j_asi_b_r/j_asi_c_r/j_asi_d_r/j_asi_e_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_r/j_asi_b_r/j_asi_c_r/j_asi_d_r/j_asi_e_r/iv_asi_hito_a_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_r/j_asi_b_r/j_asi_c_r/j_asi_d_r/j_asi_e_r/iv_asi_hito_a_r/iv_asi_hito_b_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_r/j_asi_b_r/j_asi_c_r/j_asi_d_r/j_asi_e_r/iv_asi_ko_a_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_r/j_asi_b_r/j_asi_c_r/j_asi_d_r/j_asi_e_r/iv_asi_ko_a_r/iv_asi_ko_b_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_r/j_asi_b_r/j_asi_c_r/j_asi_d_r/j_asi_e_r/iv_asi_kusu_a_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_r/j_asi_b_r/j_asi_c_r/j_asi_d_r/j_asi_e_r/iv_asi_kusu_a_r/iv_asi_kusu_b_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_r/j_asi_b_r/j_asi_c_r/j_asi_d_r/j_asi_e_r/iv_asi_naka_a_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_r/j_asi_b_r/j_asi_c_r/j_asi_d_r/j_asi_e_r/iv_asi_naka_a_r/iv_asi_naka_b_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_r/j_asi_b_r/j_asi_c_r/j_asi_d_r/j_asi_e_r/iv_asi_oya_a_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_r/j_asi_b_r/j_asi_c_r/j_asi_d_r/j_asi_e_r/iv_asi_oya_a_r/iv_asi_oya_b_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_r/j_asi_b_r/n_hizasoubi_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_asi_a_r/j_asi_b_r/n_hizasoubi_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_buki2_kosi_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_buki2_kosi_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_buki_kosi_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_buki_kosi_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_b_a_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_b_a_l/j_sk_b_b_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_b_a_l/j_sk_b_b_l/j_sk_b_c_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_b_a_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_b_a_r/j_sk_b_b_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_b_a_r/j_sk_b_b_r/j_sk_b_c_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_f_a_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_f_a_l/j_sk_f_b_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_f_a_l/j_sk_f_b_l/j_sk_f_c_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_f_a_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_f_a_r/j_sk_f_b_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_f_a_r/j_sk_f_b_r/j_sk_f_c_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_s_a_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_s_a_l/j_sk_s_b_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_s_a_l/j_sk_s_b_l/j_sk_s_c_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_s_a_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_s_a_r/j_sk_s_b_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/j_sk_s_a_r/j_sk_s_b_r/j_sk_s_c_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/n_sippo_a
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/n_sippo_a/n_sippo_b
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/n_sippo_a/n_sippo_b/n_sippo_c
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/n_sippo_a/n_sippo_b/n_sippo_c/n_sippo_d
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_kosi/n_sippo_a/n_sippo_b/n_sippo_c/n_sippo_d/n_sippo_e
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_mune_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_mune_l/iv_c_mune_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_mune_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_mune_r/iv_c_mune_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_buki_sebo_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_buki_sebo_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_buki_sebo_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_buki_sebo_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_ago
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_ago/j_f_noanim_ago
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ago
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ago/j_f_bero_01
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ago/j_f_bero_01/j_f_bero_02
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ago/j_f_bero_01/j_f_bero_02/j_f_bero_03
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ago/j_f_dago
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ago/j_f_dlip_01_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ago/j_f_dlip_01_l/j_f_dlip_02_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ago/j_f_dlip_01_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ago/j_f_dlip_01_r/j_f_dlip_02_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ago/j_f_dmlip_01_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ago/j_f_dmlip_01_l/j_f_dmlip_02_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ago/j_f_dmlip_01_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ago/j_f_dmlip_01_r/j_f_dmlip_02_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ago/j_f_hagukidn
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_dhoho_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_dhoho_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_dmemoto_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_dmemoto_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_dmiken_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_dmiken_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_dslip_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_dslip_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_eye_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_eye_l/j_f_eyepuru_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_eye_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_eye_r/j_f_eyepuru_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_eyeprm_01_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_eyeprm_01_l/j_f_eyeprm_02_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_eyeprm_01_l/j_f_irisprm_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_eyeprm_01_l/j_f_noanim_eyesize_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_eyeprm_01_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_eyeprm_01_r/j_f_eyeprm_02_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_eyeprm_01_r/j_f_irisprm_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_eyeprm_01_r/j_f_noanim_eyesize_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_eyeprmroll_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_eyeprmroll_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_hagukiup
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_hana_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_hana_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_hoho_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_hoho_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mab_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mab_l/j_f_mabdn_01_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mab_l/j_f_mabdn_01_l/j_f_mabdn_02out_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mab_l/j_f_mabdn_01_l/j_f_mabdn_03in_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mab_l/j_f_mabup_01_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mab_l/j_f_mabup_01_l/j_f_mabup_02out_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mab_l/j_f_mabup_01_l/j_f_mabup_03in_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mab_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mab_r/j_f_mabdn_01_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mab_r/j_f_mabdn_01_r/j_f_mabdn_02out_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mab_r/j_f_mabdn_01_r/j_f_mabdn_03in_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mab_r/j_f_mabup_01_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mab_r/j_f_mabup_01_r/j_f_mabup_02out_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mab_r/j_f_mabup_01_r/j_f_mabup_03in_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mayu_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mayu_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_miken_01_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_miken_01_l/j_f_miken_02_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_miken_01_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_miken_01_r/j_f_miken_02_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mmayu_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_mmayu_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_shoho_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_shoho_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_uhana
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ulip_01_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ulip_01_l/j_f_ulip_02_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ulip_01_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_ulip_01_r/j_f_ulip_02_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_umlip_01_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_umlip_01_l/j_f_umlip_02_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_umlip_01_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_umlip_01_r/j_f_umlip_02_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_uslip_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_f_face/j_f_uslip_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_mimi_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_mimi_l/n_ear_a_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_mimi_l/n_ear_a_l/n_ear_b_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_mimi_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_mimi_r/n_ear_a_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_kubi/j_kao/j_mimi_r/n_ear_a_r/n_ear_b_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/iv_nitoukin_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/j_te_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/j_te_l/j_hito_a_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/j_te_l/j_hito_a_l/j_hito_b_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/j_te_l/j_hito_a_l/j_hito_b_l/iv_hito_c_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/j_te_l/j_ko_a_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/j_te_l/j_ko_a_l/j_ko_b_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/j_te_l/j_ko_a_l/j_ko_b_l/iv_ko_c_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/j_te_l/j_kusu_a_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/j_te_l/j_kusu_a_l/j_kusu_b_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/j_te_l/j_kusu_a_l/j_kusu_b_l/iv_kusu_c_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/j_te_l/j_naka_a_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/j_te_l/j_naka_a_l/j_naka_b_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/j_te_l/j_naka_a_l/j_naka_b_l/iv_naka_c_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/j_te_l/j_oya_a_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/j_te_l/j_oya_a_l/j_oya_b_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/j_te_l/n_buki_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/j_te_l/weapon.L
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/n_buki_tate_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/n_buki_tate_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/n_hhiji_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/n_hijisoubi_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/n_hijisoubi_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/j_ude_b_l/n_hte_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/j_ude_a_l/n_hkata_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/n_kataarmor_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_l/n_kataarmor_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/iv_nitoukin_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/j_te_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/j_te_r/j_hito_a_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/j_te_r/j_hito_a_r/j_hito_b_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/j_te_r/j_hito_a_r/j_hito_b_r/iv_hito_c_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/j_te_r/j_ko_a_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/j_te_r/j_ko_a_r/j_ko_b_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/j_te_r/j_ko_a_r/j_ko_b_r/iv_ko_c_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/j_te_r/j_kusu_a_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/j_te_r/j_kusu_a_r/j_kusu_b_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/j_te_r/j_kusu_a_r/j_kusu_b_r/iv_kusu_c_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/j_te_r/j_naka_a_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/j_te_r/j_naka_a_r/j_naka_b_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/j_te_r/j_naka_a_r/j_naka_b_r/iv_naka_c_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/j_te_r/j_oya_a_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/j_te_r/j_oya_a_r/j_oya_b_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/j_te_r/n_buki_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/j_te_r/weapon.R
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/n_buki_tate_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/n_buki_tate_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/n_hhiji_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/n_hijisoubi_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/n_hijisoubi_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/j_ude_b_r/n_hte_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/j_ude_a_r/n_hkata_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/n_kataarmor_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/j_sako_r/n_kataarmor_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/brow_2_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/brow_2_l/brow_1_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/brow_2_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/brow_2_r/brow_1_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/brow_3_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/brow_3_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/brow_4_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/brow_4_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/earring_a_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/earring_a_l/earring_b_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/earring_a_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/earring_a_r/earring_b_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/Eye Tracker
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/Eye Tracker/eye_track.L
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/Eye Tracker/eye_track.R
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_ex_h0158_ke_b
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_ex_h0158_ke_f
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_ex_h0158_ke_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_ex_h0158_ke_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/brow_inner_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/brow_inner_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/cheek_1_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/cheek_1_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/cheek_2_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/cheek_2_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/cheek_3_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/cheek_3_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/cheek_4_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/cheek_4_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_eye_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_eye_l.001/eye_L
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_eye_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_eye_r.001/eye_R
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_mab_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_mab_l.001/j_f_mabdn_01_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_mab_l.001/j_f_mabdn_01_l.001/j_f_mabdn_02out_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_mab_l.001/j_f_mabdn_01_l.001/j_f_mabdn_03in_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_mab_l.001/upper_eye_lid_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_mab_l.001/upper_eye_lid_l/j_f_mabup_02out_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_mab_l.001/upper_eye_lid_l/j_f_mabup_03in_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_mab_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_mab_r.001/j_f_mabdn_01_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_mab_r.001/j_f_mabdn_01_r.001/j_f_mabdn_02out_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_mab_r.001/j_f_mabdn_01_r.001/j_f_mabdn_03in_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_mab_r.001/upper_eye_lid_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_mab_r.001/upper_eye_lid_r/j_f_mabup_02out_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_mab_r.001/upper_eye_lid_r/j_f_mabup_03in_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_ulip_01_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_ulip_01_l.001/j_f_ulip_02_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_ulip_01_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_ulip_01_r.001/j_f_ulip_02_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_umlip_01_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_umlip_01_l.001/j_f_umlip_02_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_umlip_01_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/j_f_umlip_01_r.001/j_f_umlip_02_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/Jaw
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/Jaw/j_f_dago.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/Jaw/j_f_dlip_01_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/Jaw/j_f_dlip_01_l.001/j_f_dlip_02_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/Jaw/j_f_dlip_01_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/Jaw/j_f_dlip_01_r.001/j_f_dlip_02_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/Jaw/j_f_dmlip_01_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/Jaw/j_f_dmlip_01_l.001/j_f_dmlip_02_l.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/Jaw/j_f_dmlip_01_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/Jaw/j_f_dmlip_01_r.001/j_f_dmlip_02_r.001
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/Jaw/mouth
+      lip dwn
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/Jaw/mouth_side_down_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/Jaw/mouth_side_down_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/Jaw/teeth_down
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/Jaw/tongue_1
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/Jaw/tongue_1/tongue_2
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/Jaw/tongue_1/tongue_2/tongue_3
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/nose_bridge
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/nostril_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/nostril_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_f_face.001/teeth_up
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/j_kami_f_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/mouth lip up
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/mouth_side_controller_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/mouth_side_controller_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/mouth_side_up_l
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/Neck/mek kao/mouth_side_up_r
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/shoulder_util_target_L
+    m_Weight: 1
+  - m_Path: n_root/n_hara/j_sebo_a/j_sebo_b/j_sebo_c/shoulder_util_target_R
+    m_Weight: 1
+  - m_Path: n_root/n_throw
+    m_Weight: 1
+  - m_Path: n_root/root
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Back Bone
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Lumbar
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Lumbar/Thoracic
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Lumbar/Thoracic/Breast.L
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Lumbar/Thoracic/Breast.R
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Lumbar/Thoracic/Cervical
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Lumbar/Thoracic/Cervical/Shoulder.L
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Lumbar/Thoracic/Cervical/Shoulder.L/IK_Upper_Arm_MCH.L
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Lumbar/Thoracic/Cervical/Shoulder.L/IK_Upper_Arm_MCH.L/IK_Forearm_MCH.L
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Lumbar/Thoracic/Cervical/Shoulder.R
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Lumbar/Thoracic/Cervical/Shoulder.R/IK_Upper_Arm_MCH.R
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Lumbar/Thoracic/Cervical/Shoulder.R/IK_Upper_Arm_MCH.R/IK_Forearm_MCH.R
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Back_A.L
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Back_A.L/Cloth_Back_B.L
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Back_A.L/Cloth_Back_B.L/Cloth_Back_C.L
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Back_A.R
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Back_A.R/Cloth_Back_B.R
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Back_A.R/Cloth_Back_B.R/Cloth_Back_C.R
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Front_A.L
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Front_A.L/Cloth_Front_B.L
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Front_A.L/Cloth_Front_B.L/Cloth_Front_C.L
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Front_A.R
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Front_A.R/Cloth_Front_B.R
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Front_A.R/Cloth_Front_B.R/Cloth_Front_C.R
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Side_A.L
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Side_A.L/Cloth_Side_B.L
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Side_A.L/Cloth_Side_B.L/Cloth_Side_C.L
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Side_A.R
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Side_A.R/Cloth_Side_B.R
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Cloth_Side_A.R/Cloth_Side_B.R/Cloth_Side_C.R
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/IK_Upper_Leg_MCH.L
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/IK_Upper_Leg_MCH.L/IK_Knee.L
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/IK_Upper_Leg_MCH.L/IK_Knee.L/IK_Lower_Leg_MCH.L
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/IK_Upper_Leg_MCH.R
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/IK_Upper_Leg_MCH.R/IK_Knee.R
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/IK_Upper_Leg_MCH.R/IK_Knee.R/IK_Lower_Leg_MCH.R
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/j_buki2_kosi_l.001
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/j_buki2_kosi_r.001
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/j_buki_kosi_l.001
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/j_buki_kosi_r.001
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Tail A
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Tail A/Tail B
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Tail A/Tail B/Tail C
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Tail A/Tail B/Tail C/Tail D
+    m_Weight: 1
+  - m_Path: n_root/root/Abdomen/Waist/Tail A/Tail B/Tail C/Tail D/Tail E
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Foot.L
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Foot.L/IK_Leg_Pole.L
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Foot.L/toes.L
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Foot.R
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Foot.R/IK_Leg_Pole.R
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Foot.R/toes.R
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.L
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.L/Hand_Scaler.L
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.L/IK_Arm_Pole.L
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.L/Index_1.L
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.L/Index_1.L/Index_2.L
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.L/Middle_1.L
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.L/Middle_1.L/Middle_2.L
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.L/Pinky_1.L
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.L/Pinky_1.L/Pinky_2.L
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.L/Ring_1.L
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.L/Ring_1.L/Ring_2.L
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.L/Thumb_1.L
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.L/Thumb_1.L/Thumb_2.L
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.R
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.R/Hand_Scaler.R
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.R/IK_Arm_Pole.R
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.R/Index_1.R
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.R/Index_1.R/Index_2.R
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.R/Middle_1.R
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.R/Middle_1.R/Middle_2.R
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.R/Pinky_1.R
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.R/Pinky_1.R/Pinky_2.R
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.R/Ring_1.R
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.R/Ring_1.R/Ring_2.R
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.R/Thumb_1.R
+    m_Weight: 1
+  - m_Path: n_root/root/IK_Hand.R/Thumb_1.R/Thumb_2.R
+    m_Weight: 1

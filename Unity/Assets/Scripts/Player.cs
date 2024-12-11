@@ -90,6 +90,42 @@ public class Player : MonoBehaviour
                 attack();
             }
 
+            if (Input.GetKey(KeyCode.Alpha1))
+            {
+                animator.SetLayerWeight(3, 0);
+                animator.SetLayerWeight(4, 0);
+                animator.SetLayerWeight(5, 0);
+                animator.SetLayerWeight(6, 0);
+            }
+            if (Input.GetKey(KeyCode.Alpha2))
+            {
+                animator.SetLayerWeight(3, 1);
+                animator.SetLayerWeight(4, 0);
+                animator.SetLayerWeight(5, 0);
+                animator.SetLayerWeight(6, 0);
+            }
+            if (Input.GetKey(KeyCode.Alpha3))
+            {
+                animator.SetLayerWeight(3, 0);
+                animator.SetLayerWeight(4, 1);
+                animator.SetLayerWeight(5, 0);
+                animator.SetLayerWeight(6, 0);
+            }
+            if (Input.GetKey(KeyCode.Alpha4))
+            {
+                animator.SetLayerWeight(3, 0);
+                animator.SetLayerWeight(4, 0);
+                animator.SetLayerWeight(5, 1);
+                animator.SetLayerWeight(6, 0);
+            }
+            if (Input.GetKey(KeyCode.Alpha5))
+            {
+                animator.SetLayerWeight(3, 0);
+                animator.SetLayerWeight(4, 0);
+                animator.SetLayerWeight(5, 0);
+                animator.SetLayerWeight(6, 1);
+            }
+
             moveDir = dir;
             //rb.velocity = (moveDir * moveSpeed);
 
